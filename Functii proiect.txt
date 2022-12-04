@@ -1,0 +1,21 @@
+1."SELECT * from donatori where status=:status order by rand() limit 6"
+2."SELECT * from  grupe_de_sange "
+3."INSERT INTO  donatori(FullName,MobileNumber,EmailId,Age,Gender,BloodGroup,Address,Message,status) VALUES(:fullname,:mobile,:email,:age,:gender,:blodgroup,:address,:message,:status)
+4."INSERT INTO  contact_donatori(name,EmailId,ContactNumber,Message) VALUES(:name,:email,:contactno,:message)"
+5."SELECT Address,EmailId,ContactNo from contact_info"
+
+6."INSERT INTO  grupe_de_sange(BloodGroup) VALUES(:bloodgroup)"
+7."INSERT INTO  donatori(FullName,MobileNumber,EmailId,Age,Gender,BloodGroup,Address,Message,status) VALUES(:fullname,:mobile,:email,:age,:gender,:blodgroup,:address,:message,:status)"
+8."SELECT Password FROM admin WHERE UserName=:username and Password=:password" -> "update admin set Password=:newpassword where UserName=:username"	
+9."UPDATE donatori SET Status=:status WHERE  id=:eid"
+10."delete from donatori WHERE  id=:did"
+11."SELECT UserName,Password FROM admin WHERE UserName=:email and Password=:password"
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.

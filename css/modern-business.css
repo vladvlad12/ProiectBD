@@ -1,0 +1,107 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 30vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+
+
+div[class*=box] {
+  height: 33.33%;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+}
+
+.box-1 { background-color: #FF6766; }
+.box-2 { background-color: #3f9f15; }
+.box-3 { background-color: #66A182; }
+
+.btn {
+  line-height: 35px;
+  height: 50px;
+  text-align:center ;
+  width: 250px;
+  cursor: auto;
+}
+
+
+
+
+
+
+.btn-two {
+    color: rgb(13, 1, 1);
+    transition: all 0.5s;
+    position: absolute; 
+  }
+  .btn-two span {
+    z-index: 2; 
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%; 
+  }
+  .btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(172, 9, 9, 0.816);
+    background-color: rgba(171, 55, 55, 0.915);
+  }
+  .btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(209, 15, 15, 0.846);
+    background-color: rgba(210, 13, 13, 0.763);
+  }
+  .btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgb(246, 14, 14);
+  }
+  .btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(238, 13, 13, 0.908);
+  }
+  

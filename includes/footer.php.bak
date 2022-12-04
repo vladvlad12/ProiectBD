@@ -1,0 +1,17 @@
+  
+  <style>
+  .container1  {
+   position: fixed;
+   bottom: 0;
+   width: 50%;
+   height: 60px;   /* Height of the footer */
+   background: #001018;
+}
+  </style>
+  <footer class="container1">
+        <div class="container1">
+            <p class="m-0 text-center text-white">Acesta este doar un proiect pentru scoala!</p>
+			
+        </div>
+        <!-- /.container1 -->
+    </footer>
